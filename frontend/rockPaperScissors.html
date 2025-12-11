@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/backend/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="/img/gamecontrollerforindex.png">
+
+</head>
+<body>
+    <div class="welcome-text">
+        <h1>Welcome to the game called Rock, Paper, Scissors</h1>
+        <p>Game description:</p>
+        <p>1. Player picks rock, paper, or scissors.</p>
+        <p>2. Computer picks randomly</p>
+        <p>3. Winner is decided: rock beats scissors, scissors beats paper, paper beats rock.</p>
+    </div>
+
+        <button class="rock-button" id="rock" onclick="rock()">Rock</button>
+        <button class="paper-button" id="paper" onclick="paper()">Paper</button>
+        <button class="scissors-button" id="scissors" onclick="scissors()">Scissors</button>
+
+        <button class="back-button" onclick="backButton()">Back to categories</button>
+        
+    <script src="/backend/rockPaperScissors.js"></script>
+</body>
+</html>

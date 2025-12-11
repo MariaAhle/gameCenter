@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number (1-100)</title>
+    <script src="/backend/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="/img/gamecontrollerforindex.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-text">
+        <h1>Welcome to the game called Guess the Number</h1>
+        <p>Game description:</p>
+        <p>Guess a number between 0 and 100 in the input. After each guess, you'll get a hint if it's too high, too low, or correct.</p>
+    </div>
+
+    <input type="number" id="guessInput" class="input">
+    <button id="guessButton" class="enter-button">Enter</button>
+    <p id="feedback" class="feedback"></p>
+
+    <button class="back-button" onclick="backButton()">Back to categories</button>
+
+    <img id="winImage" class="win-image" src="/img/winnerpictureforguessthenumber.png">
+    <script src="/backend/guessTheNumber.js"></script>
+</body>
+</html>
